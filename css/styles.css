@@ -63,7 +63,8 @@ p {
 .icon-lg {
     font-size: 50px;
     line-height: 18px;
-    padding: 0 5px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .bg-primary {
@@ -283,7 +284,9 @@ footer {
 
 @media(min-width:768px) {
     .icon-lg {
-        font-size: 80px;
+        font-size: 65px;
+        padding:5px;
+        margin: 5px;
     }
     
     header {
@@ -361,6 +364,11 @@ textarea {
 @media(min-width:992px) {
     .feature {
         margin: 20px auto 0;
+    }
+    .icon-lg {
+        font-size: 65px;
+        padding: 5px;
+        margin: 5px;
     }
 }
 
