@@ -14,6 +14,7 @@
     "wow": "wowjs#~1.1.2",
     "jquery-easing-original": "~1.3.2",
     "Ionicons": "ionicons#~2.0.1",
-    "devicon": "*"
+    "devicon": "*",
+    "angular-scroll": "~1.0.0"
   }
 }
