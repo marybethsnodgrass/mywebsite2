@@ -15,18 +15,6 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-hr {
-    max-width: 80px;
-    border-width: 3px;
-    opacity: 0.09;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-hr.light {
-    border-color: #fff;
-}
-
 a {
     color: #0f2a28;
     -webkit-transition: all .35s;
@@ -142,7 +130,6 @@ footer {
 
 #brand {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    padding: 15px;
     -webkit-transition: padding .2s ease-in;
     -moz-transition: padding .2s ease-in;
     transition: padding .2s ease-in;
@@ -345,6 +332,12 @@ img::-moz-selection {
     background: 0 0;
 }
 
+#mslogo {
+    height: 60px;
+    width: 60px;
+    margin-right:5px;
+}
+
 i {
     display: inline-block;
     padding: 10px;
@@ -358,8 +351,8 @@ i {
     }
 
     #brand {
-        padding: 20px;
-        font-size: 22px;
+/*        padding: 20px;
+*/        font-size: 22px;
     }
 
     .navbar-default .nav > li>a,
