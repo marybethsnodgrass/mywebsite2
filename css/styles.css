@@ -74,6 +74,20 @@ p {
     -o-background-size: cover;
 }
 
+.bg-reg {
+    position: relative;
+    min-height: auto;
+    text-align: center;
+    width: 100%;
+    background-color: #c9c9c9;
+    background-image: url("images/herringbonebluewood.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .bg-dark {
     color: #eee;
     background-color: #222;
@@ -109,7 +123,7 @@ aside {
 }
 
 footer {
-    padding: 15px;
+    padding: 3px;
 }
 
 .no-padding {
@@ -181,7 +195,6 @@ footer {
 
     .navbar-header > .navbar-brand {
         color: rgba(255,255,255,0.7);
-        padding: 19px;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -266,7 +279,7 @@ header .header-content .inner p {
 }
 
 footer {
-    background-color:#2d2d2d;
+    background-color: #279e98;
 }
 
 @media(min-width:768px) {
