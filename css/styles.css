@@ -344,7 +344,7 @@ img {
     max-width: 100%;
 }
 
-li {
+li .tech {
     max-width: 10%;
     max-height: 10%;
     margin-top: 5px;
