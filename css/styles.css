@@ -103,6 +103,7 @@ p {
 
 section {
     padding: 70px 0;
+    min-height: auto;
 }
 
 .contentDiv {
@@ -384,7 +385,7 @@ i {
     }
     
     header {
-        min-height: 100%;
+        height: 644px;
     }
 
     header .header-content {
