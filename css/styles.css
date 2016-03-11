@@ -36,7 +36,7 @@ p {
     font-size: 17px;
     line-height: 1.7;
     margin-bottom: 20px;
-    padding:15;
+    padding:15px;
 }
 
 .needsPadding {
@@ -339,6 +339,14 @@ img::-moz-selection {
     margin-right:5px;
 }
 
+.cursive {
+    text-shadow: 5px 5px 5px rgba(30,30,30,1);
+}
+
+#blurb {
+    text-shadow: 5px 5px 5px rgba(30,30,30,1);
+}
+
 img {
     vertical-align: middle;
     max-width: 100%;
@@ -347,10 +355,14 @@ img {
 .tech {
     max-width: 10%;
     max-height: 10%;
-    margin-top: 5px;
+    margin: 12px 3px;
     display: inline-block;
     min-height: 50px;
     min-width: 50px;
+}
+
+#techul {
+    padding-right: 40px;
 }
 
 i {
