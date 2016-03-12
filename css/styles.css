@@ -16,7 +16,8 @@ body {
 }
 
 a {
-    color: #0f2a28;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(60,60,60,0.7);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -39,7 +40,6 @@ h2 {
 p {
     font-size: 17px;
     line-height: 1.7;
-    margin-bottom: 20px;
     padding:15px;
 }
 
@@ -354,6 +354,10 @@ img::-moz-selection {
 img {
     vertical-align: middle;
     max-width: 100%;
+}
+
+.projimage{
+    padding:0% 5%;
 }
 
 .tech {
