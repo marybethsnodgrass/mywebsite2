@@ -25,7 +25,6 @@
     });
     
     $('.navbar-collapse ul li a').click(function() {
-         always close responsive nav after click 
         $('.navbar-toggle:visible').click();
     });
 
