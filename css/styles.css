@@ -350,6 +350,11 @@ img {
     max-width: 100%;
 }
 
+#headshot{
+    max-width: 57%;
+    margin:20px 0px;
+}
+
 .projimage{
     padding-left: 5%;
     padding-right: 5%;
@@ -489,6 +494,10 @@ i {
         max-width: 80%;
         font-size: 18px;
     }
+
+    #headshot{
+        max-width: 40%;
+    }
     
     section {
         padding: 35px 0;
@@ -498,5 +507,9 @@ i {
 @media(min-width:992px) {
     .feature {
         margin: 20px auto 0;
+    }
+
+    #headshot {
+        max-width: 32%;
     }
 }
