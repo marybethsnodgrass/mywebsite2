@@ -32,7 +32,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #0f2a28;
+    color: #a3ede8;
     outline: 0;
 }
 
@@ -53,6 +53,19 @@ p {
 .needsPadding {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.needsPaddingProj {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 0px;
+}
+
+.bottomBorderLine {
+    border-bottom: medium solid white;
+    width: 80%;
+    margin: auto;
+    margin-bottom:20px;
 }
 
 .wide-space {
@@ -91,10 +104,16 @@ section {
     text-align: center;
 }
 
+.bottomOfSection {
+    margin-bottom: 20px;
+    padding-top: 0px;
+}
+
 .contentDiv {
     background-color: rgba(0, 0, 0, 0.6);
     margin-right: 10%;
     margin-left: 10%;
+    padding-bottom: 25px;
 }
 
 footer {
@@ -134,17 +153,17 @@ footer {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
-    color: #eee;
+    color: #fff;
 }
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #0f2a28;
+    color: #a3ede8;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #9c27b0 !important;
+    color: #a3ede8 !important;
     background-color: #279e98;
 }
 
@@ -227,7 +246,7 @@ textarea {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
-    color: #222;
+    color: #a3ede8;
     background-color: #f2f2f2;
     opacity: 0.7;
 }
@@ -292,23 +311,23 @@ fieldset[disabled] .btn-default.active {
 
 ::-moz-selection {
     text-shadow: none;
-    color: #fff;
+    color: #eee;
     background: #222;
 }
 
 ::selection {
     text-shadow: none;
-    color: #fff;
+    color: #eee;
     background: #222;
 }
 
 img::selection {
-    color: #fff;
+    color: #eee;
     background: 0 0;
 }
 
 img::-moz-selection {
-    color: #fff;
+    color: #eee;
     background: 0 0;
 }
 
@@ -332,7 +351,22 @@ img {
 }
 
 .projimage{
-    padding:0% 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 30px;
+}
+
+.projSourceLink {
+    vertical-align: middle;
+}
+
+.githubLink:hover {
+    color: #a3ede8;
+
+}.githubLink {
+    padding-bottom: 0px;
+    display: inline-block;
+    margin-bottom: 0px;
 }
 
 .tech {
@@ -346,9 +380,12 @@ img {
 
 #techul {
     padding-left: 0px;
+    padding-top:20px;
+    padding-bottom:20px;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 35px;
+    margin-top:45px;
     background-color: rgba(255, 255, 255, .7);
 }
 
@@ -392,8 +429,7 @@ i {
     }
 
     #brand {
-/*        padding: 20px;
-*/        font-size: 22px;
+        font-size: 22px;
     }
 
     .navbar-default .nav > li>a,
@@ -404,7 +440,7 @@ i {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fefefe;
+        color: #a3ede8;
     }
 
     .navbar-default.affix {
@@ -414,7 +450,7 @@ i {
 
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: #dddddd;
+        color: #fff;
         text-shadow: 1px 1px 1px #1e1e1e;
     }
 
