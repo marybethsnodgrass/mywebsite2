@@ -374,6 +374,12 @@ img {
     margin-bottom: 0px;
 }
 
+.heroku {
+    margin: 12px 3px;
+    display: inline-block;
+    height: 35px;
+}
+
 .tech {
     max-width: 10%;
     max-height: 10%;
